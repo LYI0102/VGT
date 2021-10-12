@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+}
+
+.primebg{
+    background-color: #265663;
+    color: white;
+}
+
+.secondbg{
+    background-color: #3A9EA5;
+    color: white;
+}
+
+/* search */
+
+.thumbnail {
+    width: 50px;
+    object-fit: contain;
+}
+
+.linkColor {
+    color: black;
+    text-decoration: none;
+}
+
+.linkColor:hover, .linkColor:focus {
+    color: #3A9EA5;
+    text-decoration: none;
+}
+
+.pageLinkColor {
+    color: #265663;
+    text-decoration: none;
+}
+
+.pageLinkColor:hover, .pageLinkColor:focus {
+    color: #3A9EA5;
+    text-decoration: none;
+}
+
+.range-slider {
+    width: 270px;
+    text-align: center;
+    position: relative;
+}
+.rangeValues {
+    display: block;
+}
+
+input[type=range] {
+-webkit-appearance: none;
+border: 1px solid white;
+width: 270px;
+position: absolute;
+left: 0;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+width: 270px;
+height: 5px;
+background: #ddd;
+border: none;
+border-radius: 3px;
+
+}
+
+input[type=range]::-webkit-slider-thumb {
+-webkit-appearance: none;
+border: none;
+height: 16px;
+width: 16px;
+border-radius: 50%;
+background: #3A9EA5;
+margin-top: -4px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+input[type=range]:focus {
+outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+background: #ccc;
+}
+
+input[type=range]::-moz-range-track {
+width: 270px;
+height: 5px;
+background: #ddd;
+border: none;
+border-radius: 3px;
+}
+
+input[type=range]::-moz-range-thumb {
+border: none;
+height: 16px;
+width: 16px;
+border-radius: 50%;
+background: #3A9EA5;
+
+}
+
+
+/*hide the outline behind the border*/
+
+input[type=range]:-moz-focusring {
+outline: 1px solid white;
+outline-offset: -1px;
+}
+
+input[type=range]::-ms-track {
+width: 270px;
+height: 5px;
+/*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+background: transparent;
+/*leave room for the larger thumb to overflow with a transparent border */
+border-color: transparent;
+border-width: 6px 0;
+/*remove default tick marks*/
+color: transparent;
+    z-index: -4;
+
+}
+
+input[type=range]::-ms-fill-lower {
+background: #777;
+border-radius: 10px;
+}
+
+input[type=range]::-ms-fill-upper {
+background: #ddd;
+border-radius: 10px;
+}
+
+input[type=range]::-ms-thumb {
+border: none;
+height: 16px;
+width: 16px;
+border-radius: 50%;
+background: #3A9EA5;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+background: #888;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+background: #ccc;
+}
+
+
+
+
+/* product */
+
+
+
+
+.thumbnail2 {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.thumbnail3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.thumbnail4 {
+    width: 40px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+
+
+
+/* puton */
+
+.btnhover:hover {
+    background-color: #3A9EA5;
+    color: white;
+}
+
+.titleHeight {
+    height: 100%;
+}
+.upload_cover {            
+    position: relative;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+    background: #efefef;
+}
+.upload_icon {
+    font-weight: bold;
+    font-size: 180%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 30%;
+}
