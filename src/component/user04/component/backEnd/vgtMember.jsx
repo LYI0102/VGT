@@ -357,13 +357,13 @@ function Member() {
                             <input type="text" className="form-control" id="vgtpassword" name="vgtpassword" placeholder="請輸入付款密碼" value={currentItem.vgtpassword}
                                 onChange={handleChange} />
                         </div> */}
-                        <div className="input-group mb-3">
+                        {/* <div className="input-group mb-3">
                             <label htmlFor="vgtpassword">
                                 <span className="input-group-text listTitle">&ensp;評價 :&ensp;</span>
                             </label>
                             <input type="text" className="form-control" id="eval" name="eval" placeholder="請輸入評價" value={currentItem.eval}
                                 onChange={handleChange} />
-                        </div>
+                        </div> */}
 
 
 

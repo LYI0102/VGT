@@ -29,7 +29,7 @@ router.post('/vgtserver/member', function (req, res, next) {
     };
     req.mysql.query("insert into member (vgtname, account, password, truename, birthdate, trueid, email, phone, auth, vgtpoint, vgtpassword, eval) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
     [req.body.vgtname, req.body.account,hash, req.body.truename, req.body.birthdate, req.body.trueid, req.body.email,
-    req.body.phone, req.body.auth, req.body.vgtpoint, req.body.vgtpassword, req.body.eval],
+    req.body.phone, req.body.auth, req.body.vgtpoint, req.body.vgtpassword, 0],
 
     function (err, result) {
       res.send(err);
