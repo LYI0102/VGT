@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from '../src/component_Index/reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './component_Index/style.scss';
 // import 'font-awesome/css/font-awesome.min.css'; 
 // import $ from "jquery";
 
